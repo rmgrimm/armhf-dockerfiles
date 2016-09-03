@@ -1,10 +1,10 @@
 # Based on the jess/firefox Dockerfile
 
-FROM armv7/armhf-debian
+FROM rmgrimm/armhf-debian
 MAINTAINER Robert Grimm <grimm.rob@gmail.com>
 LABEL architecture="ARMv7"
 
-RUN apt-get update && apt-get install -y \
+RUN apt-get install -y \
   ca-certificates \
   firefox-esr \
   hicolor-icon-theme \
